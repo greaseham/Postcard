@@ -11,8 +11,9 @@
 		08110C3419C2435900708A7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08110C3319C2435900708A7C /* ViewController.swift */; };
 		08110C3719C2435900708A7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08110C3519C2435900708A7C /* Main.storyboard */; };
 		08110C3919C2435900708A7C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08110C3819C2435900708A7C /* Images.xcassets */; };
-		08110C3C19C2435900708A7C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08110C3A19C2435900708A7C /* LaunchScreen.xib */; };
 		08110C4819C2435900708A7C /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08110C4719C2435900708A7C /* PostcardTests.swift */; };
+		08110C5219C24A6B00708A7C /* SagradaFamilia.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 08110C5119C24A6B00708A7C /* SagradaFamilia.jpeg */; };
+		08110C5419C24CEB00708A7C /* AlbertEinsteinStamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08110C5319C24CEB00708A7C /* AlbertEinsteinStamp.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,10 +33,11 @@
 		08110C3319C2435900708A7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		08110C3619C2435900708A7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		08110C3819C2435900708A7C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		08110C3B19C2435900708A7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		08110C4119C2435900708A7C /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08110C4619C2435900708A7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08110C4719C2435900708A7C /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		08110C5119C24A6B00708A7C /* SagradaFamilia.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SagradaFamilia.jpeg; sourceTree = "<group>"; };
+		08110C5319C24CEB00708A7C /* AlbertEinsteinStamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AlbertEinsteinStamp.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +83,6 @@
 				08110C3319C2435900708A7C /* ViewController.swift */,
 				08110C3519C2435900708A7C /* Main.storyboard */,
 				08110C3819C2435900708A7C /* Images.xcassets */,
-				08110C3A19C2435900708A7C /* LaunchScreen.xib */,
 				08110C2F19C2435900708A7C /* Supporting Files */,
 			);
 			path = Postcard;
@@ -90,6 +91,8 @@
 		08110C2F19C2435900708A7C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				08110C5319C24CEB00708A7C /* AlbertEinsteinStamp.jpg */,
+				08110C5119C24A6B00708A7C /* SagradaFamilia.jpeg */,
 				08110C3019C2435900708A7C /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,7 +196,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				08110C3719C2435900708A7C /* Main.storyboard in Resources */,
-				08110C3C19C2435900708A7C /* LaunchScreen.xib in Resources */,
+				08110C5219C24A6B00708A7C /* SagradaFamilia.jpeg in Resources */,
+				08110C5419C24CEB00708A7C /* AlbertEinsteinStamp.jpg in Resources */,
 				08110C3919C2435900708A7C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,14 +246,6 @@
 				08110C3619C2435900708A7C /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		08110C3A19C2435900708A7C /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				08110C3B19C2435900708A7C /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
